@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Testing for rightclick.js</title>
+    <!-- some basic styles -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/bootstrap.min.css">
+    <!-- plugin styles -->
+    <link rel="stylesheet" type="text/css" href="/rightclick.css">
+    <!-- script files -->
+    <script src="/jquery.min.js" type="text/javascript"></script>
+    <script src="/rightclick.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>rightClick.js</h1>
+        <p>Right clicks made simple for the web.</p>
+
+
+
+
+
+
+        <div id="target"></div>
+        <br>
+        <br>
+        <br>
+        <!-- 
+			# MENU
+         -->
+        <div class="menu">
+            <ul>
+                <li>Stop</li>
+                <li>Play</li>
+                <li class="disabled">Cocoa</li>
+                <li>Butter</li>
+                <li>Kisses</li>
+                <li>Very long menu item my dick delegated</li>
+                <li>Sub Menu
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Very long menu item</li>
+                    </ul>
+                </li>
+                <li>Butter
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Very long menu item
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                                <li>Very long menu item</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- init the plugin -->
+</body>
+<script type="text/javascript">
+$(document).rightClick();
+</script>
+
+</html>
