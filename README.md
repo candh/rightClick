@@ -10,4 +10,4 @@ and fire up a browser and go to localhost:3000
     
 # It's still in development
 Any contribution will be helpful.
-By [@candhforlife][http://www.twitter.com/candhforlife] 
+By [@candhforlife](http://www.twitter.com/candhforlife)
