@@ -1,5 +1,13 @@
-#target {
+#target1 {
 	width:400px;
 	height:400px;
 	background:black;
+	float:left;
+}
+
+#target2 {
+	width:400px;
+	height:400px;
+	background:blue;
+	float:left;
 }
