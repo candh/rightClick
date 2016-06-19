@@ -1,4 +1,4 @@
-# rightClick.js
+# [rightClick.js](http://candh.github.io/rightClick/)
 Right clicks (context menus) made easy for the web.
     
 # How To? (Dev)
