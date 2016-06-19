@@ -1,0 +1,62 @@
+header {
+    text-align: center;
+    padding: 100px;
+    background: url('../images/header.png')center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.git-button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding:20px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    transition: background 0.5s ease;
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00d2ff, #3a7bd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00d2ff, #3a7bd5);
+    border-radius: 5px;
+    transition: all ease 1s;
+}
+
+.git-button:hover {
+    color: white;
+    transition: all ease 1s;
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#target1 {
+    background: #f2ca27;
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    float: left;
+}
+
+#target2 {
+    background: #e74c3c;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#footer {
+    background: #2d2d2d;
+    padding: 30px;
+}
+
+.footer-content {
+    color: white;
+}
+.small {
+    font-size:10px;
+}
