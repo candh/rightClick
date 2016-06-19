@@ -10,6 +10,7 @@
     -webkit-box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.21);
     -moz-box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.21);
     box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.21);
+    font-size:15px;
 }
 
 .menu .disabled {
@@ -69,3 +70,16 @@
 .menu li:hover > ul {
     display: block;
 }
+
+
+/* some fixes for skeleton.css */
+
+li {
+  margin-bottom: 0rem; }
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 0;
+  font-size: 100%; }
